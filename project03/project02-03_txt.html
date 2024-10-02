@@ -32,5 +32,21 @@
    </article>
    
    <p id="feedback"></p>
+   <script>
+      const squareElement = document.getElementById('square');
+      const triangleElement = document.getElementById('triangle');
+      const circleElement = document.getElementById('circle')
+      const feedbackElement = document.getElementById('feedback');
+      squareElement.onmouseout = function() {
+        feedbackElement.innerHTML = '';
+      };
+      triangleElement.onmouseout = function() {
+        feedbackElement.innerHTML
+      };
+      circleElement.onmouseout = function() {
+        feedbackElement.innerHTML = '';
+      };
+    
+    </script>
 </body>
 </html>
